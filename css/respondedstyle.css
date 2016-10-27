@@ -1,0 +1,502 @@
+/*
+Theme Name: Dry January - RESPONDED
+Theme URI: http://www.advantec-internet.co.uk
+Description: Bespoke theme by Advantec. - UPDATED to be responsive with bootstrap
+Author: Advantec
+Version: 1.0
+*/
+
+
+  body {
+      padding: 0;
+      margin: 0;
+      font-family: "proxima-nova", sans-serif;
+      font-weight: 400;
+      color: #414141;
+      font-size: 16px !important;
+      line-height: 1.467em;
+  }
+
+ h1, h1 a, h2, h2 a, h3, h3 a, h4, h4 a {
+      color: black;
+      font-family: "bebas-neue", sans-serif;
+      font-weight: 400;
+      line-height: 1.467em;
+      margin: 0 0 20px;
+      text-transform: uppercase;
+  }
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, select, p, blockquote, th, td {
+margin: 0;
+padding: 0; }
+
+li{
+  list-style:none;
+}
+
+img{
+    max-width:100%;
+    height:auto;
+}
+
+.clear {
+	clear: both;
+}
+p {
+	font-weight: 400;
+	margin: 0 0 30px 0;
+}
+
+
+.proxima, p{
+	font-family: "proxima-nova",sans-serif;
+}
+
+.main-block {
+    
+    zoom: 1;
+}
+
+.main-header .section-heading {
+    float: left;
+    text-shadow: 1px 1px 0 white;
+    margin: 0;
+    font-size: 6em;
+    line-height: 1em;
+}
+
+.branding .section-heading {
+    font-family: "bebas-neue", sans-serif;
+}
+
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px; }
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+}
+
+
+
+
+.tips .panel, .science .panel{
+    background:none;
+    box-shadow:none;
+    display:none;
+}
+.panel.active{
+    display:block;
+}
+
+
+
+/* #Buttons ------------------------------------------------------------------------ */
+.button,
+.button:visited {
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+  padding: 5px 40px;
+  display: inline;
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: top;
+  zoom: 1;
+  *display: inline;
+  /* for IE 7*/
+  cursor: pointer;
+  -webkit-transition: all 350ms cubic-bezier(0.5, 0, 0.5, 1);
+  -moz-transition: all 350ms cubic-bezier(0.5, 0, 0.5, 1);
+  -o-transition: all 350ms cubic-bezier(0.5, 0, 0.5, 1);
+  transition: all 350ms cubic-bezier(0.5, 0, 0.5, 1);
+  border: none;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px; }
+
+.button:hover,
+.button:focus {
+  background-color: #ffde00;
+  color: black; }
+
+.fundraising .inactive .button {
+  background-color: #75756f;
+  color: white; }
+
+.button-reverse,
+.button-reverse:visited {
+  background-color: #ffde00;
+  color: black;
+  text-transform: uppercase;
+  padding: 5px 40px;
+  display: inline;
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: top;
+  zoom: 1;
+  *display: inline;
+  /* for IE 7*/
+  cursor: pointer;
+  -webkit-transition: all 350ms cubic-bezier(0.5, 0, 0.5, 1);
+  -moz-transition: all 350ms cubic-bezier(0.5, 0, 0.5, 1);
+  -o-transition: all 350ms cubic-bezier(0.5, 0, 0.5, 1);
+  transition: all 350ms cubic-bezier(0.5, 0, 0.5, 1);
+  border: none;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px; }
+
+.button-reverse:hover,
+.button-reverse:focus {
+  background-color: black;
+  color: white; }
+
+.full-width-button{
+    width:100%;
+    text-align:center;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+/* #Icons ------------------------------------------------------------------------ */
+.icon {
+  background: url("images/icons-sprite.png") no-repeat;
+  display: block; }
+
+.text {
+  float: left;
+  margin-right: 12px; }
+
+.decoration {
+  background: url("img/decoration/dashed-horizonal.gif") center repeat-x; }
+
+.current-menu-item {
+  text-decoration: underline; }
+
+ .internal-anchor .back {
+      color: white;
+      text-transform: uppercase;
+      font-family: "proxima-nova", sans-serif;
+      font-weight: 100;
+      font-size: 1.5em;
+      margin-right: 15px;
+display: inline-block;
+margin-top:20px;
+  }
+
+ 
+
+/******************************************************/
+/*                  Unit Calculator                   */
+/******************************************************/
+
+.unit-calc .icon-pintbeer{
+    background:url('../images/calculator-icons.png') no-repeat 0 0;
+    width:158px;
+    height:133px;
+    margin:0 auto;
+}
+.unit-calc .icon-glasswine{
+    background: url('../images/calculator-icons.png') no-repeat -158px 0;
+    width: 115px;
+    height:133px;
+    margin:0 auto;
+}
+.unit-calc .icon-largeglasswine{
+    background: url('../images/calculator-icons.png') no-repeat -273px 0;
+    width: 116px;
+    height:133px;
+    margin:0 auto;
+}
+.unit-calc .icon-bottlewine{
+    background: url('../images/calculator-icons.png') no-repeat -387px 0;
+    width: 133px;
+    height:133px;
+    margin:0 auto;
+}
+.unit-calc .icon-spiritmixer{
+    background: url('../images/calculator-icons.png') no-repeat -520px 0;
+    width: 145px;
+    height:133px;
+    margin:0 auto;
+}
+.unit-calc .icon-alcopop{
+    background: url('../images/calculator-icons.png') no-repeat -666px 0;
+    width: 130px;
+    height:133px;
+    margin:0 auto;
+}
+
+.unit-calc .form-layer label{
+    font-family: "bebas-neue", sans-serif;
+    font-weight: normal;
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+.unit-calc .form-layer{
+    position:relative;
+}
+
+.unit-calc .drink-range{
+    margin-top:80px;
+
+}
+
+.unit-calc .input-value{
+    width:78px;
+    height:78px;
+    background:url('../images/calculator-indicator.png') no-repeat;
+    text-align:center;
+    line-height:67px;
+    font-size: 40px;
+    position:absolute;
+    left: -1.4px;
+    margin-left: -1.4%;
+    font-family: "bebas-neue", sans-serif;
+    color:#fff;
+}
+
+.unit-calc .form-group{
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.form-group label{
+  line-height:1;
+}
+
+.unit-calc-title{
+    background: url("img/bk-dots.png") center left repeat-x;
+	text-align: center;
+	font-size: 3.8em;
+	line-height: 1em;
+    margin-bottom:20px;
+}
+
+.unit-calc-title span{
+    background: url("img/main-bg.jpg") repeat;
+    padding: 0px 15px;
+}
+
+.unit-calc-cost-mod, .unit-calc-calories-mod, .unit-calc-units-mod{
+    width: 250px;
+    height: 250px;
+    margin: 20px auto;
+    background: black;
+    border-radius: 50%;
+    color:#fff;
+    padding-top: 60px;
+}
+
+.unit-calc-cost-mod{
+    background:#ffde00;
+    color:#000;
+}
+
+.unit-calc-cost-mod .value, .unit-calc-calories-mod .value, .unit-calc-units-mod .value{
+    font-size: 60px;
+    line-height: 60px;
+    font-family: "bebas-neue", sans-serif;
+}
+
+.unit-calc-cost-mod p, .unit-calc-calories-mod p, .unit-calc-units-mod p{
+    font-size: 40px;
+    line-height:40px;
+    font-family: "bebas-neue", sans-serif;
+    font-weight:normal;
+}
+
+.unit-calc-duration{
+    margin-bottom:50px;
+}
+
+ .unit-calc-duration-select{
+    margin-top:40px;
+}
+
+.unit-calc-duration .duration-toggle{
+    font-size:40px;
+    font-family: "bebas-neue", sans-serif;
+    font-weight:normal;
+    color:#7d7d7d;
+    margin-left:20px;
+    margin-right:20px;
+    line-height:50px;
+}
+.unit-calc-duration .duration-toggle.active{
+    color:#000;
+    text-decoration:underline;
+}
+
+.unit-calc-totals{
+    margin-bottom:100px;
+}
+
+.unit-calc-signup-head{
+    background: url("img/decoration/dashed-horizonal.gif") center repeat-x;
+}
+
+.signup-icon{
+    background:url('img/icons/sign-up-now-rotated.png') no-repeat;
+    width:124px;
+    height:127px;
+}
+.unit-calc-signup-text{
+    margin-top:-40px;
+}
+
+@media(max-width:991px){
+    .unit-calc .input-value{
+        top:0;
+        margin-top:-80px;
+    }
+    .unit-calc-signup-text{
+        margin-top:0;
+    }
+}
+
+
+
+/*****************************************************************************/
+/*                                  Reset                                    */
+/*****************************************************************************/
+
+
+input[type=range] {
+  -webkit-appearance: none; /* Hides the slider so that custom slider can be made */
+  width: 100%; /* Specific width is required for Firefox. */
+}
+
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+}
+
+input[type=range]:focus {
+  outline: none; /* Removes the blue border. You should probably do some kind of focus styling for accessibility reasons though. */
+}
+
+input[type=range]::-ms-track {
+  width: 100%;
+  cursor: pointer;
+  background: transparent; /* Hides the slider so custom styles can be added */
+  border-color: transparent;
+  color: transparent;
+}
+
+/*****************************************************************************/
+/*                                  Styles                                   */
+/*****************************************************************************/
+
+input[type=range] {
+  -webkit-appearance: none;
+  background:transparent;
+  width: 100%;
+  margin: 2.8px 0;
+}
+input[type=range]:focus {
+  outline: none;
+}
+input[type=range]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 8.4px;
+  cursor: pointer;
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+  background: #63635e;
+  border-radius: 1.3px;
+  border: 0.2px solid #010101;
+}
+input[type=range]::-webkit-slider-thumb {
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+  border: 0px solid #000000;
+  height: 24px;
+  width: 24px;
+  border-radius: 50px;
+  background: #262626;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -8px;
+}
+input[type=range]:focus::-webkit-slider-runnable-track {
+  background: #7d7d77;
+}
+input[type=range]::-moz-range-track {
+  width: 100%;
+  height: 8.4px;
+  cursor: pointer;
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+  background: #63635e;
+  border-radius: 1.3px;
+  border: 0.2px solid #010101;
+}
+input[type=range]::-moz-range-thumb {
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+  border: 0px solid #000000;
+  height: 14px;
+  width: 14px;
+  border-radius: 50px;
+  background: #262626;
+  cursor: pointer;
+}
+input[type=range]::-ms-track {
+  width: 100%;
+  height: 8.4px;
+  cursor: pointer;
+  background: transparent;
+  border-color: transparent;
+  color: transparent;
+}
+input[type=range]::-ms-fill-lower {
+  background: #494945;
+  border: 0.2px solid #010101;
+  border-radius: 2.6px;
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+}
+input[type=range]::-ms-fill-upper {
+  background: #63635e;
+  border: 0.2px solid #010101;
+  border-radius: 2.6px;
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+}
+input[type=range]::-ms-thumb {
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+  border: 0px solid #000000;
+  height: 14px;
+  width: 14px;
+  border-radius: 50px;
+  background: #262626;
+  cursor: pointer;
+  height: 8.4px;
+}
+input[type=range]:focus::-ms-fill-lower {
+  background: #63635e;
+}
+input[type=range]:focus::-ms-fill-upper {
+  background: #7d7d77;
+}
+
+
+@media all and (max-width:420px){
+  .main-header .section-heading {
+    font-size:5em;
+  }
+}
+
+@media all and (max-width:360px){
+  .main-header .section-heading {
+    font-size:4em;
+  }
+}
