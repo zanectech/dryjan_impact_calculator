@@ -10,7 +10,7 @@ Version: 1.0
   body {
       padding: 0;
       margin: 0;
-      font-family: "Oswald", "Calibri W01";
+      font-family:"CalibriW01-Regular";
       font-weight: 400;
       color: #414141;
       font-size: 16px !important;
@@ -19,7 +19,7 @@ Version: 1.0
 
  h1, h1 a, h2, h2 a, h3, h3 a, h4, h4 a {
       color: black;
-      font-family: "Oswald", "Calibri W01";
+      font-family:"CalibriW01-Regular";
       font-weight: 400;
       line-height: 1.467em;
       margin: 0 0 20px;
@@ -49,7 +49,7 @@ p {
 
 
 .proxima, p{
-	font-family: "Oswald", "Calibri W01";
+	font-family:"CalibriW01-Regular";
 }
 
 .main-block {
@@ -66,7 +66,7 @@ p {
 }
 
 .branding .section-heading {
-    font-family: "Oswald", "Calibri W01";
+    font-family:"CalibriW01-Regular";
 }
 
 .visuallyhidden {
@@ -189,7 +189,7 @@ p {
  .internal-anchor .back {
       color: white;
       text-transform: uppercase;
-      font-family: "Oswald", "Calibri W01";
+      font-family:"CalibriW01-Regular";
       font-weight: 100;
       font-size: 1.5em;
       margin-right: 15px;
@@ -241,7 +241,7 @@ margin-top:20px;
 }
 
 .unit-calc .form-layer label{
-    font-family: "Oswald", "Calibri W01";
+    font-family:"CalibriW01-Regular";
     font-weight: normal;
     font-size: 40px;
     margin-top: 20px;
@@ -267,7 +267,7 @@ margin-top:20px;
     position:absolute;
     left: -1.4px;
     margin-left: -1.4%;
-    font-family: "Oswald", "Calibri W01";
+    font-family:"CalibriW01-Regular";
     color:#fff;
 }
 
@@ -310,15 +310,16 @@ margin-top:20px;
 }
 
 .unit-calc-cost-mod .value, .unit-calc-calories-mod .value, .unit-calc-units-mod .value{
-    font-size: 60px;
-    line-height: 60px;
-    font-family: "Oswald", "Calibri W01";
+    font-size: 62px;
+    line-height: 62px;
+    font-family:"CalibriW01-Regular";
+	font-weight:bold;
 }
 
 .unit-calc-cost-mod p, .unit-calc-calories-mod p, .unit-calc-units-mod p{
     font-size: 40px;
     line-height:40px;
-    font-family: "Oswald", "Calibri W01";
+    font-family:"CalibriW01-Regular";
     font-weight:normal;
 }
 
@@ -332,7 +333,7 @@ margin-top:20px;
 
 .unit-calc-duration .duration-toggle{
     font-size:40px;
-    font-family: "Oswald", "Calibri W01";
+    font-family:"CalibriW01-Regular";
     font-weight:normal;
     color:#7d7d7d;
     margin-left:20px;
